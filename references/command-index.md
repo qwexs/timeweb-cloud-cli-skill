@@ -1,0 +1,211 @@
+# Command discovery index (2.15.4)
+
+Generated offline from official CLI help. These are discovery paths, not instructions to execute. Run the selected path with --help; read commands.md for safety and version evidence in versions.md. Hidden aliases/deprecated commands are excluded. A group path may open a setup prompt without --help.
+
+- `twc`
+- `twc account`
+- `twc account access`
+- `twc account access restrictions`
+- `twc account finances`
+- `twc account status`
+- `twc apps`
+- `twc apps create`
+- `twc apps delete`
+- `twc apps get`
+- `twc apps get-repositories`
+- `twc apps get-vcs-providers`
+- `twc apps list`
+- `twc apps list-presets`
+- `twc balancer`
+- `twc balancer backend`
+- `twc balancer backend add`
+- `twc balancer backend list`
+- `twc balancer backend remove`
+- `twc balancer create`
+- `twc balancer get`
+- `twc balancer list`
+- `twc balancer list-presets`
+- `twc balancer remove`
+- `twc balancer rule`
+- `twc balancer rule add`
+- `twc balancer rule list`
+- `twc balancer rule remove`
+- `twc balancer rule update`
+- `twc balancer set`
+- `twc cluster`
+- `twc cluster create`
+- `twc cluster group`
+- `twc cluster group add`
+- `twc cluster group list`
+- `twc cluster group remove`
+- `twc cluster group scale-down`
+- `twc cluster group scale-up`
+- `twc cluster kubeconfig`
+- `twc cluster list`
+- `twc cluster list-k8s-versions`
+- `twc cluster list-network-drivers`
+- `twc cluster list-presets`
+- `twc cluster node`
+- `twc cluster node list`
+- `twc cluster node remove`
+- `twc cluster remove`
+- `twc cluster show`
+- `twc config`
+- `twc config dump`
+- `twc config edit`
+- `twc config file`
+- `twc config init`
+- `twc config profiles`
+- `twc config set`
+- `twc config unset`
+- `twc database`
+- `twc database backup`
+- `twc database backup create`
+- `twc database backup list`
+- `twc database backup remove`
+- `twc database backup restore`
+- `twc database backup schedule`
+- `twc database create`
+- `twc database get`
+- `twc database instance`
+- `twc database instance create`
+- `twc database instance list`
+- `twc database instance remove`
+- `twc database list`
+- `twc database list-presets`
+- `twc database list-types`
+- `twc database remove`
+- `twc database set`
+- `twc database user`
+- `twc database user create`
+- `twc database user get`
+- `twc database user list`
+- `twc database user remove`
+- `twc domain`
+- `twc domain add`
+- `twc domain info`
+- `twc domain list`
+- `twc domain record`
+- `twc domain record add`
+- `twc domain record list`
+- `twc domain record remove`
+- `twc domain record update`
+- `twc domain remove`
+- `twc domain subdomain`
+- `twc domain subdomain add`
+- `twc domain subdomain remove`
+- `twc firewall`
+- `twc firewall group`
+- `twc firewall group create`
+- `twc firewall group dump`
+- `twc firewall group get`
+- `twc firewall group list`
+- `twc firewall group remove`
+- `twc firewall group restore`
+- `twc firewall group set`
+- `twc firewall link`
+- `twc firewall rule`
+- `twc firewall rule create`
+- `twc firewall rule list`
+- `twc firewall rule remove`
+- `twc firewall rule update`
+- `twc firewall show`
+- `twc firewall unlink`
+- `twc image`
+- `twc image create`
+- `twc image get`
+- `twc image list`
+- `twc image remove`
+- `twc image set`
+- `twc image upload`
+- `twc ip`
+- `twc ip attach`
+- `twc ip create`
+- `twc ip detach`
+- `twc ip get`
+- `twc ip list`
+- `twc ip remove`
+- `twc ip set`
+- `twc project`
+- `twc project create`
+- `twc project list`
+- `twc project remove`
+- `twc project resource`
+- `twc project resource list`
+- `twc project resource move`
+- `twc project set`
+- `twc server`
+- `twc server backup`
+- `twc server backup create`
+- `twc server backup get`
+- `twc server backup list`
+- `twc server backup mount`
+- `twc server backup remove`
+- `twc server backup restore`
+- `twc server backup schedule`
+- `twc server backup set`
+- `twc server backup unmount`
+- `twc server boot`
+- `twc server clone`
+- `twc server create`
+- `twc server dash`
+- `twc server disk`
+- `twc server disk add`
+- `twc server disk get`
+- `twc server disk list`
+- `twc server disk remove`
+- `twc server disk resize`
+- `twc server get`
+- `twc server history`
+- `twc server ip`
+- `twc server ip add`
+- `twc server ip list`
+- `twc server ip remove`
+- `twc server ip set`
+- `twc server list`
+- `twc server list-configurators`
+- `twc server list-os-images`
+- `twc server list-presets`
+- `twc server list-software`
+- `twc server reboot`
+- `twc server reinstall`
+- `twc server remove`
+- `twc server reset-root-password`
+- `twc server resize`
+- `twc server set`
+- `twc server set-boot-mode`
+- `twc server set-nat-mode`
+- `twc server shutdown`
+- `twc server vnc`
+- `twc ssh-key`
+- `twc ssh-key add`
+- `twc ssh-key edit`
+- `twc ssh-key get`
+- `twc ssh-key list`
+- `twc ssh-key new`
+- `twc ssh-key remove`
+- `twc storage`
+- `twc storage genconfig`
+- `twc storage list`
+- `twc storage list-presets`
+- `twc storage mb`
+- `twc storage rb`
+- `twc storage set`
+- `twc storage subdomain`
+- `twc storage subdomain add`
+- `twc storage subdomain gencert`
+- `twc storage subdomain list`
+- `twc storage subdomain remove`
+- `twc storage user`
+- `twc storage user list`
+- `twc storage user passwd`
+- `twc version`
+- `twc vpc`
+- `twc vpc create`
+- `twc vpc list`
+- `twc vpc port`
+- `twc vpc port list`
+- `twc vpc remove`
+- `twc vpc set`
+- `twc vpc show`
+- `twc whoami`

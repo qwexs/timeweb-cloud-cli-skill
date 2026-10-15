@@ -1,0 +1,25 @@
+timeweb-cloud-cli/
+  .gitattributes
+  .gitignore
+  CONTRIBUTING.md
+  DIRECTORY_STRUCTURE.txt
+  LICENSE
+  README.md
+  SECURITY.md
+  SKILL.md
+  references/cli-schema.json
+  references/command-index.md
+  references/commands.md
+  references/setup.md
+  references/verification.md
+  references/versions.md
+  scripts/collect_cli_schema.py
+  scripts/validate.py
+  tests/test_validate.py
+
+Token budget (approximate; references load selectively):
+- SKILL.md: ~458 tokens
+- references/*.md: ~5011 tokens
+
+Version: 1.0
+Checked: 2026-10-15

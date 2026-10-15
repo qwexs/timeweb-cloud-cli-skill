@@ -1,0 +1,3170 @@
+{
+  "cli_version": "2.15.4",
+  "checked_on": "2026-10-15",
+  "network": "blocked",
+  "authentication": "none",
+  "commands": {
+    "twc": {
+      "options": [
+        "--config",
+        "--help",
+        "--install-completion",
+        "--profile",
+        "--show-completion",
+        "--verbose",
+        "--version",
+        "-c",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc account": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc account access": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc account access restrictions": {
+      "options": [
+        "--by-country",
+        "--by-ip",
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc account finances": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc account status": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc apps": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc apps create": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--status",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "yml_config_path"
+      ]
+    },
+    "twc apps delete": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "app_id"
+      ]
+    },
+    "twc apps get": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--status",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "app_id"
+      ]
+    },
+    "twc apps get-repositories": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "vcs_provider_id"
+      ]
+    },
+    "twc apps get-vcs-providers": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc apps list": {
+      "options": [
+        "--config",
+        "--filter",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-f",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc apps list-presets": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "_type"
+      ]
+    },
+    "twc balancer": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc balancer backend": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc balancer backend add": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "balancer_id",
+        "backends"
+      ]
+    },
+    "twc balancer backend list": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "balancer_id"
+      ]
+    },
+    "twc balancer backend remove": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "--yes",
+        "-c",
+        "-p",
+        "-v",
+        "-y"
+      ],
+      "arguments": [
+        "balancer_id",
+        "backends"
+      ]
+    },
+    "twc balancer create": {
+      "options": [
+        "--algo",
+        "--availability-zone",
+        "--backend-keepalive",
+        "--cert-data",
+        "--cert-domain",
+        "--cert-key",
+        "--cert-type",
+        "--client-timeout",
+        "--config",
+        "--connect-timeout",
+        "--desc",
+        "--fall",
+        "--force-https",
+        "--help",
+        "--http-timeout",
+        "--inter",
+        "--max-connections",
+        "--name",
+        "--network-id",
+        "--no-backend-keepalive",
+        "--no-force-https",
+        "--no-proxy-protocol",
+        "--no-public-ip",
+        "--no-sticky",
+        "--output",
+        "--path",
+        "--port",
+        "--preset-id",
+        "--private-ip",
+        "--profile",
+        "--project-id",
+        "--proto",
+        "--proxy-protocol",
+        "--public-ip",
+        "--region",
+        "--replicas",
+        "--rise",
+        "--server-timeout",
+        "--sticky",
+        "--timeout",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc balancer get": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--status",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "balancer_id"
+      ]
+    },
+    "twc balancer list": {
+      "options": [
+        "--config",
+        "--filter",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-f",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc balancer list-presets": {
+      "options": [
+        "--config",
+        "--filter",
+        "--help",
+        "--output",
+        "--profile",
+        "--region",
+        "--verbose",
+        "-c",
+        "-f",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc balancer remove": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "--yes",
+        "-c",
+        "-p",
+        "-v",
+        "-y"
+      ],
+      "arguments": [
+        "balancer_ids"
+      ]
+    },
+    "twc balancer rule": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc balancer rule add": {
+      "options": [
+        "--backend",
+        "--config",
+        "--frontend",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "balancer_id"
+      ]
+    },
+    "twc balancer rule list": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "balancer_id"
+      ]
+    },
+    "twc balancer rule remove": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "--yes",
+        "-c",
+        "-p",
+        "-v",
+        "-y"
+      ],
+      "arguments": [
+        "rule_ids"
+      ]
+    },
+    "twc balancer rule update": {
+      "options": [
+        "--backend",
+        "--config",
+        "--frontend",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "rule_id"
+      ]
+    },
+    "twc balancer set": {
+      "options": [
+        "--algo",
+        "--backend-keepalive",
+        "--client-timeout",
+        "--config",
+        "--connect-timeout",
+        "--fall",
+        "--force-https",
+        "--help",
+        "--http-timeout",
+        "--inter",
+        "--max-connections",
+        "--name",
+        "--no-backend-keepalive",
+        "--no-force-https",
+        "--no-proxy-protocol",
+        "--no-sticky",
+        "--output",
+        "--path",
+        "--port",
+        "--profile",
+        "--proto",
+        "--proxy-protocol",
+        "--replicas",
+        "--rise",
+        "--server-timeout",
+        "--sticky",
+        "--timeout",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "balancer_id"
+      ]
+    },
+    "twc cluster": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc cluster create": {
+      "options": [
+        "--add-worker-group",
+        "--config",
+        "--desc",
+        "--help",
+        "--ingress",
+        "--k8s-version",
+        "--master-preset-id",
+        "--name",
+        "--network-driver",
+        "--no-ingress",
+        "--output",
+        "--profile",
+        "--project-id",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc cluster group": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc cluster group add": {
+      "options": [
+        "--config",
+        "--help",
+        "--name",
+        "--nodes",
+        "--output",
+        "--preset-id",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "cluster_id"
+      ]
+    },
+    "twc cluster group list": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "cluster_id"
+      ]
+    },
+    "twc cluster group remove": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "--yes",
+        "-c",
+        "-p",
+        "-v",
+        "-y"
+      ],
+      "arguments": [
+        "group_ids"
+      ]
+    },
+    "twc cluster group scale-down": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "group_id",
+        "count"
+      ]
+    },
+    "twc cluster group scale-up": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "group_id",
+        "count"
+      ]
+    },
+    "twc cluster kubeconfig": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--save",
+        "--verbose",
+        "-c",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "cluster_id"
+      ]
+    },
+    "twc cluster list": {
+      "options": [
+        "--config",
+        "--filter",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-f",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc cluster list-k8s-versions": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc cluster list-network-drivers": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc cluster list-presets": {
+      "options": [
+        "--config",
+        "--filter",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-f",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc cluster node": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc cluster node list": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "cluster_id"
+      ]
+    },
+    "twc cluster node remove": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "--yes",
+        "-c",
+        "-p",
+        "-v",
+        "-y"
+      ],
+      "arguments": [
+        "cluster_id",
+        "node_ids"
+      ]
+    },
+    "twc cluster remove": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "--yes",
+        "-c",
+        "-p",
+        "-v",
+        "-y"
+      ],
+      "arguments": [
+        "cluster_ids"
+      ]
+    },
+    "twc cluster show": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "cluster_id"
+      ]
+    },
+    "twc config": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc config dump": {
+      "options": [
+        "--full",
+        "--help",
+        "--output",
+        "--profile",
+        "-o",
+        "-p"
+      ],
+      "arguments": []
+    },
+    "twc config edit": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc config file": {
+      "options": [
+        "--help",
+        "--locate"
+      ],
+      "arguments": []
+    },
+    "twc config init": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc config profiles": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc config set": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "-c",
+        "-p"
+      ],
+      "arguments": [
+        "params"
+      ]
+    },
+    "twc config unset": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "-c",
+        "-p"
+      ],
+      "arguments": [
+        "params"
+      ]
+    },
+    "twc database": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc database backup": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc database backup create": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "db_id"
+      ]
+    },
+    "twc database backup list": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "db_id"
+      ]
+    },
+    "twc database backup remove": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "--yes",
+        "-c",
+        "-p",
+        "-v",
+        "-y"
+      ],
+      "arguments": [
+        "db_id",
+        "backup_id"
+      ]
+    },
+    "twc database backup restore": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "--yes",
+        "-c",
+        "-p",
+        "-v",
+        "-y"
+      ],
+      "arguments": [
+        "db_id",
+        "backup_id"
+      ]
+    },
+    "twc database backup schedule": {
+      "options": [
+        "--config",
+        "--day-of-week",
+        "--disable",
+        "--enable",
+        "--help",
+        "--interval",
+        "--keep",
+        "--output",
+        "--profile",
+        "--start-date",
+        "--status",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "db_id"
+      ]
+    },
+    "twc database create": {
+      "options": [
+        "--availability-zone",
+        "--backup-day-of-week",
+        "--backup-interval",
+        "--backup-keep",
+        "--backup-start-date",
+        "--config",
+        "--db-desc",
+        "--db-name",
+        "--enable-backups",
+        "--hash-type",
+        "--help",
+        "--name",
+        "--network-id",
+        "--no-public-ip",
+        "--output",
+        "--param",
+        "--preset-id",
+        "--private-ip",
+        "--profile",
+        "--project-id",
+        "--public-ip",
+        "--type",
+        "--user-desc",
+        "--user-host",
+        "--user-login",
+        "--user-password",
+        "--user-privileges",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc database get": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--status",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "db_id"
+      ]
+    },
+    "twc database instance": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc database instance create": {
+      "options": [
+        "--config",
+        "--desc",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "db_id",
+        "name"
+      ]
+    },
+    "twc database instance list": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "db_id"
+      ]
+    },
+    "twc database instance remove": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "db_id",
+        "instance_id"
+      ]
+    },
+    "twc database list": {
+      "options": [
+        "--config",
+        "--filter",
+        "--help",
+        "--limit",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-f",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc database list-presets": {
+      "options": [
+        "--config",
+        "--filter",
+        "--help",
+        "--output",
+        "--profile",
+        "--region",
+        "--verbose",
+        "-c",
+        "-f",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc database list-types": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc database remove": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "--yes",
+        "-c",
+        "-p",
+        "-v",
+        "-y"
+      ],
+      "arguments": [
+        "db_ids"
+      ]
+    },
+    "twc database set": {
+      "options": [
+        "--config",
+        "--external-ip",
+        "--help",
+        "--name",
+        "--no-external-ip",
+        "--no-prompt-password",
+        "--output",
+        "--param",
+        "--password",
+        "--preset-id",
+        "--profile",
+        "--prompt-password",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "db_id"
+      ]
+    },
+    "twc database user": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc database user create": {
+      "options": [
+        "--config",
+        "--desc",
+        "--help",
+        "--host",
+        "--instance-id",
+        "--login",
+        "--output",
+        "--password",
+        "--privileges",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "db_id"
+      ]
+    },
+    "twc database user get": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "db_id",
+        "user_id"
+      ]
+    },
+    "twc database user list": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "db_id"
+      ]
+    },
+    "twc database user remove": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "db_id",
+        "user_id"
+      ]
+    },
+    "twc domain": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc domain add": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "domain_name"
+      ]
+    },
+    "twc domain info": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "domain_name"
+      ]
+    },
+    "twc domain list": {
+      "options": [
+        "--all",
+        "--config",
+        "--filter",
+        "--help",
+        "--limit",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-a",
+        "-c",
+        "-f",
+        "-l",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc domain record": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc domain record add": {
+      "options": [
+        "--2ld",
+        "--config",
+        "--filter",
+        "--help",
+        "--host",
+        "--output",
+        "--port",
+        "--prio",
+        "--profile",
+        "--proto",
+        "--service",
+        "--ttl",
+        "--type",
+        "--value",
+        "--verbose",
+        "-c",
+        "-f",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "domain_name"
+      ]
+    },
+    "twc domain record list": {
+      "options": [
+        "--all",
+        "--config",
+        "--filter",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-a",
+        "-c",
+        "-f",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "domain_name"
+      ]
+    },
+    "twc domain record remove": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "domain_name",
+        "record_id"
+      ]
+    },
+    "twc domain record update": {
+      "options": [
+        "--2ld",
+        "--config",
+        "--filter",
+        "--help",
+        "--output",
+        "--prio",
+        "--profile",
+        "--type",
+        "--value",
+        "--verbose",
+        "-c",
+        "-f",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "domain_name",
+        "record_id"
+      ]
+    },
+    "twc domain remove": {
+      "options": [
+        "--config",
+        "--force",
+        "--help",
+        "--profile",
+        "--verbose",
+        "--yes",
+        "-c",
+        "-p",
+        "-v",
+        "-y"
+      ],
+      "arguments": [
+        "domain_names"
+      ]
+    },
+    "twc domain subdomain": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc domain subdomain add": {
+      "options": [
+        "--2ld",
+        "--config",
+        "--filter",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-f",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "subdomain"
+      ]
+    },
+    "twc domain subdomain remove": {
+      "options": [
+        "--2ld",
+        "--config",
+        "--filter",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "--yes",
+        "-c",
+        "-f",
+        "-o",
+        "-p",
+        "-v",
+        "-y"
+      ],
+      "arguments": [
+        "subdomain"
+      ]
+    },
+    "twc firewall": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc firewall group": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc firewall group create": {
+      "options": [
+        "--config",
+        "--desc",
+        "--help",
+        "--name",
+        "--output",
+        "--policy",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc firewall group dump": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "group_id"
+      ]
+    },
+    "twc firewall group get": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "group_id"
+      ]
+    },
+    "twc firewall group list": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc firewall group remove": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "--yes",
+        "-c",
+        "-p",
+        "-v",
+        "-y"
+      ],
+      "arguments": [
+        "group_ids"
+      ]
+    },
+    "twc firewall group restore": {
+      "options": [
+        "--config",
+        "--dry-run",
+        "--file",
+        "--help",
+        "--output",
+        "--profile",
+        "--rules-only",
+        "--verbose",
+        "-c",
+        "-f",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "group_id"
+      ]
+    },
+    "twc firewall group set": {
+      "options": [
+        "--config",
+        "--desc",
+        "--help",
+        "--name",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "group_id"
+      ]
+    },
+    "twc firewall link": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "resource_type",
+        "resource_id",
+        "group_id"
+      ]
+    },
+    "twc firewall rule": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc firewall rule create": {
+      "options": [
+        "--cidr",
+        "--config",
+        "--egress",
+        "--group",
+        "--group-name",
+        "--group-policy",
+        "--help",
+        "--ingress",
+        "--make-group",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-G",
+        "-c",
+        "-g",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "ports"
+      ]
+    },
+    "twc firewall rule list": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "group_id"
+      ]
+    },
+    "twc firewall rule remove": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "rules_ids"
+      ]
+    },
+    "twc firewall rule update": {
+      "options": [
+        "--cidr",
+        "--config",
+        "--egress",
+        "--help",
+        "--ingress",
+        "--output",
+        "--port",
+        "--profile",
+        "--proto",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "rule_id"
+      ]
+    },
+    "twc firewall show": {
+      "options": [
+        "--config",
+        "--filter",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-f",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "resource_type",
+        "resource_id"
+      ]
+    },
+    "twc firewall unlink": {
+      "options": [
+        "--all",
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "-a",
+        "-c",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "resource_type",
+        "resource_id",
+        "group_id"
+      ]
+    },
+    "twc image": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc image create": {
+      "options": [
+        "--config",
+        "--desc",
+        "--help",
+        "--name",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "disk_id"
+      ]
+    },
+    "twc image get": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--status",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "image_id"
+      ]
+    },
+    "twc image list": {
+      "options": [
+        "--config",
+        "--filter",
+        "--help",
+        "--limit",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-f",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc image remove": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "--yes",
+        "-c",
+        "-p",
+        "-v",
+        "-y"
+      ],
+      "arguments": [
+        "image_ids"
+      ]
+    },
+    "twc image set": {
+      "options": [
+        "--config",
+        "--desc",
+        "--help",
+        "--name",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "image_id"
+      ]
+    },
+    "twc image upload": {
+      "options": [
+        "--config",
+        "--desc",
+        "--help",
+        "--name",
+        "--os-type",
+        "--output",
+        "--profile",
+        "--region",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "file"
+      ]
+    },
+    "twc ip": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc ip attach": {
+      "options": [
+        "--balancer",
+        "--config",
+        "--database",
+        "--help",
+        "--profile",
+        "--server",
+        "--verbose",
+        "-c",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "ip"
+      ]
+    },
+    "twc ip create": {
+      "options": [
+        "--availability-zone",
+        "--config",
+        "--ddos-protection",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc ip detach": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "ip"
+      ]
+    },
+    "twc ip get": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "ip"
+      ]
+    },
+    "twc ip list": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc ip remove": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "--yes",
+        "-c",
+        "-p",
+        "-v",
+        "-y"
+      ],
+      "arguments": [
+        "floating_ips"
+      ]
+    },
+    "twc ip set": {
+      "options": [
+        "--comment",
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--ptr",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "ip"
+      ]
+    },
+    "twc project": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc project create": {
+      "options": [
+        "--avatar-id",
+        "--config",
+        "--desc",
+        "--help",
+        "--name",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc project list": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc project remove": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "--yes",
+        "-c",
+        "-p",
+        "-v",
+        "-y"
+      ],
+      "arguments": [
+        "project_ids"
+      ]
+    },
+    "twc project resource": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc project resource list": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--type",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "project_id"
+      ]
+    },
+    "twc project resource move": {
+      "options": [
+        "--balancer",
+        "--bucket",
+        "--cluster",
+        "--config",
+        "--database",
+        "--dedicated",
+        "--help",
+        "--output",
+        "--profile",
+        "--server",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "project_id"
+      ]
+    },
+    "twc project set": {
+      "options": [
+        "--avatar-id",
+        "--config",
+        "--desc",
+        "--help",
+        "--name",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "project_id"
+      ]
+    },
+    "twc server": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc server backup": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc server backup create": {
+      "options": [
+        "--comment",
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "disk_id"
+      ]
+    },
+    "twc server backup get": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "disk_id",
+        "backup_id"
+      ]
+    },
+    "twc server backup list": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "disk_id"
+      ]
+    },
+    "twc server backup mount": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "disk_id",
+        "backup_id"
+      ]
+    },
+    "twc server backup remove": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "--yes",
+        "-c",
+        "-p",
+        "-v",
+        "-y"
+      ],
+      "arguments": [
+        "disk_id",
+        "backup_ids"
+      ]
+    },
+    "twc server backup restore": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "--yes",
+        "-c",
+        "-p",
+        "-v",
+        "-y"
+      ],
+      "arguments": [
+        "disk_id",
+        "backup_id"
+      ]
+    },
+    "twc server backup schedule": {
+      "options": [
+        "--config",
+        "--day-of-week",
+        "--disable",
+        "--enable",
+        "--help",
+        "--interval",
+        "--keep",
+        "--output",
+        "--profile",
+        "--start-date",
+        "--status",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "disk_id"
+      ]
+    },
+    "twc server backup set": {
+      "options": [
+        "--comment",
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "disk_id",
+        "backup_id"
+      ]
+    },
+    "twc server backup unmount": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "disk_id",
+        "backup_id"
+      ]
+    },
+    "twc server boot": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "server_ids"
+      ]
+    },
+    "twc server clone": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "server_id"
+      ]
+    },
+    "twc server create": {
+      "options": [
+        "--availability-zone",
+        "--avatar-id",
+        "--bandwidth",
+        "--comment",
+        "--config",
+        "--configurator-id",
+        "--cpu",
+        "--ddos-protection",
+        "--disable-ssh-password-auth",
+        "--disk",
+        "--gpu",
+        "--help",
+        "--hostname",
+        "--image",
+        "--name",
+        "--nat-mode",
+        "--network-id",
+        "--no-public-ip",
+        "--output",
+        "--preset-id",
+        "--private-ip",
+        "--profile",
+        "--project-id",
+        "--public-ip",
+        "--ram",
+        "--region",
+        "--software-id",
+        "--ssh-key",
+        "--type",
+        "--user-data",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc server dash": {
+      "options": [
+        "--help",
+        "--print",
+        "--tab",
+        "--win"
+      ],
+      "arguments": [
+        "server_id"
+      ]
+    },
+    "twc server disk": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc server disk add": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--size",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "server_id"
+      ]
+    },
+    "twc server disk get": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "disk_id"
+      ]
+    },
+    "twc server disk list": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "server_id"
+      ]
+    },
+    "twc server disk remove": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "--yes",
+        "-c",
+        "-p",
+        "-v",
+        "-y"
+      ],
+      "arguments": [
+        "disk_ids"
+      ]
+    },
+    "twc server disk resize": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--size",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "disk_id"
+      ]
+    },
+    "twc server get": {
+      "options": [
+        "--config",
+        "--disks",
+        "--help",
+        "--networks",
+        "--output",
+        "--profile",
+        "--status",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "server_id"
+      ]
+    },
+    "twc server history": {
+      "options": [
+        "--config",
+        "--help",
+        "--limit",
+        "--order",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "server_id"
+      ]
+    },
+    "twc server ip": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc server ip add": {
+      "options": [
+        "--config",
+        "--help",
+        "--ipv4",
+        "--ipv6",
+        "--output",
+        "--profile",
+        "--ptr",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "server_id"
+      ]
+    },
+    "twc server ip list": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "server_id"
+      ]
+    },
+    "twc server ip remove": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "--yes",
+        "-c",
+        "-p",
+        "-v",
+        "-y"
+      ],
+      "arguments": [
+        "ip_address"
+      ]
+    },
+    "twc server ip set": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--ptr",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "ip_address"
+      ]
+    },
+    "twc server list": {
+      "options": [
+        "--config",
+        "--filter",
+        "--help",
+        "--ids",
+        "--limit",
+        "--no-ids",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-f",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc server list-configurators": {
+      "options": [
+        "--config",
+        "--filter",
+        "--help",
+        "--output",
+        "--profile",
+        "--region",
+        "--verbose",
+        "-c",
+        "-f",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc server list-os-images": {
+      "options": [
+        "--config",
+        "--filter",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-f",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc server list-presets": {
+      "options": [
+        "--config",
+        "--filter",
+        "--help",
+        "--output",
+        "--profile",
+        "--region",
+        "--verbose",
+        "-c",
+        "-f",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc server list-software": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc server reboot": {
+      "options": [
+        "--config",
+        "--hard",
+        "--help",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "server_ids"
+      ]
+    },
+    "twc server reinstall": {
+      "options": [
+        "--add-ssh-keys",
+        "--config",
+        "--help",
+        "--image",
+        "--output",
+        "--profile",
+        "--software-id",
+        "--verbose",
+        "--yes",
+        "-c",
+        "-o",
+        "-p",
+        "-v",
+        "-y"
+      ],
+      "arguments": [
+        "server_id"
+      ]
+    },
+    "twc server remove": {
+      "options": [
+        "--config",
+        "--help",
+        "--keep-public-ip",
+        "--profile",
+        "--verbose",
+        "--yes",
+        "-c",
+        "-p",
+        "-v",
+        "-y"
+      ],
+      "arguments": [
+        "server_ids"
+      ]
+    },
+    "twc server reset-root-password": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "--yes",
+        "-c",
+        "-p",
+        "-v",
+        "-y"
+      ],
+      "arguments": [
+        "server_id"
+      ]
+    },
+    "twc server resize": {
+      "options": [
+        "--bandwidth",
+        "--config",
+        "--cpu",
+        "--disk",
+        "--help",
+        "--output",
+        "--preset-id",
+        "--profile",
+        "--ram",
+        "--verbose",
+        "--yes",
+        "-c",
+        "-o",
+        "-p",
+        "-v",
+        "-y"
+      ],
+      "arguments": [
+        "server_id"
+      ]
+    },
+    "twc server set": {
+      "options": [
+        "--avatar-id",
+        "--comment",
+        "--config",
+        "--help",
+        "--name",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "server_id"
+      ]
+    },
+    "twc server set-boot-mode": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "--yes",
+        "-c",
+        "-p",
+        "-v",
+        "-y"
+      ],
+      "arguments": [
+        "server_ids",
+        "boot_mode"
+      ]
+    },
+    "twc server set-nat-mode": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "server_ids",
+        "nat_mode"
+      ]
+    },
+    "twc server shutdown": {
+      "options": [
+        "--config",
+        "--hard",
+        "--help",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "server_ids"
+      ]
+    },
+    "twc server vnc": {
+      "options": [
+        "--help",
+        "--print",
+        "--tab",
+        "--win"
+      ],
+      "arguments": [
+        "server_id"
+      ]
+    },
+    "twc ssh-key": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc ssh-key add": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "server_id",
+        "ssh_keys_ids"
+      ]
+    },
+    "twc ssh-key edit": {
+      "options": [
+        "--config",
+        "--default",
+        "--help",
+        "--name",
+        "--output",
+        "--profile",
+        "--public-key-file",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "ssh_key_id"
+      ]
+    },
+    "twc ssh-key get": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "ssh_key_id"
+      ]
+    },
+    "twc ssh-key list": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc ssh-key new": {
+      "options": [
+        "--config",
+        "--default",
+        "--help",
+        "--name",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "public_key_file"
+      ]
+    },
+    "twc ssh-key remove": {
+      "options": [
+        "--config",
+        "--from-server",
+        "--help",
+        "--profile",
+        "--verbose",
+        "--yes",
+        "-c",
+        "-p",
+        "-v",
+        "-y"
+      ],
+      "arguments": [
+        "ssh_keys_ids"
+      ]
+    },
+    "twc storage": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc storage genconfig": {
+      "options": [
+        "--client",
+        "--config",
+        "--help",
+        "--profile",
+        "--save",
+        "--user-id",
+        "--verbose",
+        "-c",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc storage list": {
+      "options": [
+        "--config",
+        "--filter",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-f",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc storage list-presets": {
+      "options": [
+        "--config",
+        "--filter",
+        "--help",
+        "--output",
+        "--profile",
+        "--region",
+        "--verbose",
+        "-c",
+        "-f",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc storage mb": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--preset-id",
+        "--profile",
+        "--project-id",
+        "--type",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "bucket"
+      ]
+    },
+    "twc storage rb": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "--yes",
+        "-c",
+        "-p",
+        "-v",
+        "-y"
+      ],
+      "arguments": [
+        "buckets"
+      ]
+    },
+    "twc storage set": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--preset-id",
+        "--profile",
+        "--type",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "bucket"
+      ]
+    },
+    "twc storage subdomain": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc storage subdomain add": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "bucket",
+        "subdomains"
+      ]
+    },
+    "twc storage subdomain gencert": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "subdomains"
+      ]
+    },
+    "twc storage subdomain list": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "bucket"
+      ]
+    },
+    "twc storage subdomain remove": {
+      "options": [
+        "--config",
+        "--help",
+        "--profile",
+        "--verbose",
+        "--yes",
+        "-c",
+        "-p",
+        "-v",
+        "-y"
+      ],
+      "arguments": [
+        "bucket",
+        "subdomains"
+      ]
+    },
+    "twc storage user": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc storage user list": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc storage user passwd": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--secret-key",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "access_key"
+      ]
+    },
+    "twc version": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc vpc": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc vpc create": {
+      "options": [
+        "--availability-zone",
+        "--config",
+        "--desc",
+        "--help",
+        "--name",
+        "--output",
+        "--profile",
+        "--region",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "subnet"
+      ]
+    },
+    "twc vpc list": {
+      "options": [
+        "--config",
+        "--filter",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-f",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    },
+    "twc vpc port": {
+      "options": [
+        "--help"
+      ],
+      "arguments": []
+    },
+    "twc vpc port list": {
+      "options": [
+        "--config",
+        "--filter",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-f",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "vpc_id"
+      ]
+    },
+    "twc vpc remove": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "--yes",
+        "-c",
+        "-o",
+        "-p",
+        "-v",
+        "-y"
+      ],
+      "arguments": [
+        "vpc_ids"
+      ]
+    },
+    "twc vpc set": {
+      "options": [
+        "--config",
+        "--desc",
+        "--help",
+        "--name",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "vpc_id"
+      ]
+    },
+    "twc vpc show": {
+      "options": [
+        "--config",
+        "--filter",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-f",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": [
+        "vpc_id"
+      ]
+    },
+    "twc whoami": {
+      "options": [
+        "--config",
+        "--help",
+        "--output",
+        "--profile",
+        "--verbose",
+        "-c",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "arguments": []
+    }
+  }
+}

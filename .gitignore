@@ -1,0 +1,24 @@
+# Credentials and private local state
+.env
+.env.*
+.twcrc*
+*.pem
+*.key
+*.p12
+*.pfx
+kubeconfig*
+*.tfstate*
+*.tfvars
+.s3cfg
+.rclone.conf
+# Build, local environments and backups
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.zip
+*.bak
+*.backup
+*.log
+dist/
+.tmp/
